@@ -1,0 +1,30 @@
+body{
+    background-color: #487ce4;
+}
+
+.root{
+    background-color: #ffffff;
+    width: 150px;
+    height: 150px;
+    border-radius: 5%;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin:  -50px 0 0 -50px;
+}
+
+.root::after {
+    color: #487ce4;
+    content:  "f";
+    display: block;
+    font-family: Facebook Letter Faces, Arial;
+    font-size: 150px;
+    font-weight: bold;
+    margin:  6% 0 0 50%;
+}
+
+.root:hover {
+   box-shadow: 0px 0px 7px rgba(255,250,250,0.90);
+   cursor: pointer;
+}
